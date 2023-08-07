@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel='stylesheet' type='text/css' href='intro.css'>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box">
+
+<div class="hey">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ <h1><span class="auto-type"></span></h1>
+</div>
+<div class="quicklinks">
+  <h1><span class="auto-type2"></span></h1>
+  <button onclick="window.location.href='files/resume.pdf' "class="button button1">Resume</button>
+<button onclick="window.location.href='https://github.com/nickmakaha', '_blank'" target="_blank" class="button button2">Github</button>
+<button onclick="window.location.href='https://github.com/nickmakaha', '_blank'" target="_blank" class="button button3">&nbsp&nbspBlog&nbsp  </button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</div>
+
+
+
+
+
+<a href="#aboutblockbg"></a>
+<div id="aboutblockbg">
+<div class="aboutblock">
+  <div class="aboutheader">A Bit About Me
+  <p class ="aboutpar">I'm currently pursuing my B.S. in Computer Science & Engineering at UCLA, where <br> I've been fortunate enough to have had a variety of amazing experiences.
+    <br> <br>
+    I've always had a passion for breaking things  
+    and developing creative solutions <br>  to modern day problems utilizing Computer Science.
+    I've taken  <br> these passions to my work as both a student and a researcher/software engineer. <br> 
+    During my first year I worked on quantum computing (a field in which many topics<br> still go right over my head). The summer after, I interned at the Department of Defense, <br>
+ where I grew my actual skills as a software engineer.    I have also secured an NSF/Intel funded <br> position for this summer, where I will be researching  
+    NDC (Near-Data-Computing)<br> and exploring novel methodologies for handling instructions at the lowest level. <br>
+   
+     <br> 
+     <br> 
+     I came into UCLA in a unique situation, as I had finished high school at the age of fifteen <br> 
+     and had graduated from community college by the age of seventeen. This blessing has <br> 
+     allowed me to move along my studies at a slower pace, taking fewer classes <br> 
+     and gaining the opportunity to participate in a variety of amazing research and learn <br>
+      from great minds in the field of Computer Science. I strongly believe <br> 
+      that the greatest learning occurs outside of the classroom, and my choices during my <br> 
+      time at UCLA have allowed me to live out this ideology.
+    
+  </p>
+  </div>  
+  <div class="breakfacts">&nbsp Fun Facts About Me
+    <button id = "btnfacts" datacnt = "1" onclick = "changeText()"><span>&#x21bb;</span></button>
+    <p id="changingbreak">I once broke into my university's grading system (whoops)</p>
+  </div>
+</div>
+</div>
+
+
+  <div id="box2">
+    <div class="aboutheader2">Work & Experience
+      
+      <div class = "work1">PolyArch
+        <p id = "work1sub">PolyArch is a computer architecture lab at UCLA focusing on developing novel ISAs, accelerator architectures and their compilers, accelerator design-automation techniques, and developing open-source architecture design frameworks.
+
+        </p>
+        <button class="collapsible">More about my work at PolyArch</button>
+<div class="content">
+  <p>My main project as part of PolyArch is to implement a conditional step instruction in a simulated Gem5 MicroSuite. In my preliminary work, I wrote Python scripts to generate matrices of varying sparsities. I then utilized a modified version of GAP to benchmark a ternary and a branching implementation of a dot product on said sparse matrices. This showed feasibiility of a conditional step showing significant performance increases when compared to a traditional step instruction.</p>
+</div>
+      </div>
+
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+
+    </div>
+  </div>
+
+
+<!-- 
+<button type="button" class="collapsible1">Notable Blog Posts</button>
+<div class="collaps1content1">
+  <button onclick="window.location.href='https://blog1.com', '_blank'" target="_blank" class="blog1button">The Time I hacked my Universities Gradescope</button>
+  <p>Lorem ipsum...</p>
+
+<div class="collaps1content1">
+ 
+  <p></p> 
+--> 
+  
+
+
+</div>
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
