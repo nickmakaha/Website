@@ -29,7 +29,7 @@ body {
   <h1><span class="auto-type2"></span></h1>
   <button onclick="window.location.href='files/resume.pdf' "class="button button1">Resume</button>
 <button onclick="window.location.href='https://github.com/nickmakaha', '_blank'" target="_blank" class="button button2">Github</button>
-<button onclick="window.location.href='https://github.com/nickmakaha', '_blank'" target="_blank" class="button button3">&nbsp&nbspBlog&nbsp  </button>
+<button onclick="window.location.href='blog/index.html', '_blank'" target="_blank" class="button button3">&nbsp&nbspBlog&nbsp  </button>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -68,6 +68,7 @@ body {
     <button id = "btnfacts" datacnt = "1" onclick = "changeText()"><span>&#x21bb;</span></button>
     <p id="changingbreak">I once broke into my university's grading system (whoops)</p>
   </div>
+  <img src="pic.jpg" alt="Avatar">
 </div>
 </div>
 
@@ -85,9 +86,24 @@ body {
 </div>
       </div>
 
+      <div class = "work2">Department of Defense
+        <p id = "work2sub">During my time at the Department of Defense, I was exposed to a variety of new technologies and got a flavor of what it is like to work in a team of software developers. Utilizing an Agile/Sprint system, I gained glimpses of how to prioritize workflow and manage many moving parts in a singular project.
+
+        </p>
+        <button class="collapsible2">More about my work at DOD</button>
+<div class="content2">
+  <p> Onboarding: During onboarding I was tasked with deploying a Docker image onto a Kubernetes pod to allow multiplayer on a flight simulator. This task proved difficult as I went from never hearing the word "container" in Computer Science to deploying a functional multiplayer game on Kubernetes within a few days. It was a great learning experience and exemplified the power of containerization. 
+    <br><br> Project 1: Autonomous Ground Drones. My main task during the autonomous ground drone project was to implement a functioning object detection model that could run in unison with our livestream-feed from the drones. The largest limitation in this task was hardware, as a personally trained model in PyTorch led to major frame drops on the stream. This led to my usage of Cascade Classifiers, a machine-learning model included within OpenCV.
+    <br>
+     <br> Project 2: Recruiting Robot. The recruiting robot was a 3D printed robot designed with servos motors that allowed movement of its head. The robot was equipped with a pre-trained Tensorflow model for facial recognition. By calculating the area of the screen occupied by an individual's face, it could be determined if an individual was within talking range, which would trigger the recruiting robot to start a conversation. In this project I worked largely on solving issues with the facial recognition and creating proper control flow so that transitions between different conversations would be seamless.
+    <br>
+    <br> Other Work: Outside of my main 2 projects, I made it a goal to be exposed to a plethora of different groups during my time at the Department of Defense. This led to myself being involved with groups developing a variety of different software/hardware such as: stealth drones with object detection, flight simulators in OpenGL, CTF creation, and signal jamming. </p>
+</div>
+      </div>
+
 
       <script>
-        var coll = document.getElementsByClassName("collapsible");
+        var coll = document.querySelectorAll('.collapsible,.collapsible2');
         var i;
         
         for (i = 0; i < coll.length; i++) {

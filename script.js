@@ -1,3 +1,6 @@
+
+
+
 let start = true
 
 var hey = new Typed(".auto-type", 
@@ -16,7 +19,7 @@ var hey = new Typed(".auto-type",
 var quicklinks = new Typed(".auto-type2", 
 {
 
-    strings: ["It's dangerous below, you might need these: "],
+    strings: ["It's dangerous to go alone, take these: "],
     typeSpeed: 15,
     backSpeed: 100,
     startDelay: 2000,
@@ -79,3 +82,5 @@ function changeText  () {
 
     
 }
+
+

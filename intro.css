@@ -193,7 +193,7 @@ img {
     text-align: center;
     margin-top: 50px;
     outline: none;
-    font-size: 5.2vw;
+    font-size: 4.2vw;
     font-weight: 500;
 
 }
@@ -206,9 +206,9 @@ img {
     color:white;
     font-size: 25%;
     text-align:left;
-    margin-left: 5%;
+    margin-left: 10vw;
     position:relative;
-    margin-top: 5%;
+    margin-top: 8.5vw;
     overflow-wrap: break-word;
   }
 
@@ -216,18 +216,25 @@ img {
     font-family: Lucida Sans Unicode
   }
 
+img {
+    border-radius: 50%;
+    margin-top: -35vw;
+    margin-left: -5vw;
+    width: 20vw;
+    height: 20vw;
+  }
 .breakfacts {
     
     color:white;
     border:white;
-    border-width: 10px;
-    border-style: double;
-    font-size: 1.8vw;
+    border-width: .15vw;
+    border-style: solid;
+    font-size: .9vw;
     text-align:left;
-    margin-left: 65vw;
-    margin-top: -30vw;
-    width: 30vw;
-    height: 22vw;
+    margin-left: 73vw;
+    margin-top: -5vw;
+    width: 15vw;
+    height: 10vw;
     position:relative;
     display:relative;
 }
@@ -253,7 +260,7 @@ img {
     border-right: black;
     border-left: black;
     border-bottom: black;
-    border-width: 10px;
+    border-width: .1vw;
     border-style: solid;
 }
 
@@ -262,7 +269,7 @@ img {
 
 #box2{
     width: "device-width";
-    height: 100vh;
+    height: 200vh;
     background:rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
@@ -282,7 +289,7 @@ img {
     text-align: center;
     margin-top: 50px;
     outline: none;
-    font-size: 5.2vw;
+    font-size: 4vw;
     font-weight: 500;
 
 
@@ -295,10 +302,10 @@ img {
     width: 100%;
     border: none;
     margin-left: -35vw;
-    margin-top: 50px;
+    margin-top: 5vw;
     right: -300px;
     outline: none;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 500;
  
 }
@@ -311,9 +318,9 @@ img {
     display:flex;
     color:rgb(7, 7, 7);
     overflow: hidden;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     text-align:left;
-    margin-left: 45vw;
+    margin-left: 48vw;
     position:relative;
     margin-top: 25px;
 }
@@ -324,19 +331,19 @@ img {
     display: block;
     color:rgb(7, 7, 7);
     overflow: hidden;
-    font-size: 20px;
+    font-size: 1.2vw;
     text-align:left;
     margin-left: 50vw;
     position:relative;
-    margin-top: -10px;
+    margin-top: -.1vw;
     border: white;
     background: white;
   }
   
   .collapsible:after {
     content: '\025BA'; /* Unicode character for "plus" sign (+) */
-    margin-top: 3px;
-    font-size: 13px;
+    margin-top: .1vw;
+    font-size: 1.1vw;
     color: rgb(0, 0, 0);
     float: right;
     margin-left: 1vw;
@@ -353,7 +360,81 @@ img {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: white;
-    font-size: 15px;
+    font-size: 1.1vw;
     margin-left: 53vw;
     text-align: left;
   }
+  .work2 {
+    background-color:#ffffff;
+    color: #000000;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    margin-left: -28.5vw;
+    margin-top: 5vw;
+    right: -300px;
+    outline: none;
+    font-size: 2vw;
+    font-weight: 500;
+ 
+}
+
+#work2sub
+{
+    padding: 0 18px;
+    display: block;
+    background-color: white;
+    display:flex;
+    color:rgb(7, 7, 7);
+    overflow: hidden;
+    font-size: 1.2vw;
+    text-align:left;
+    margin-left: 41.5vw;
+    position:relative;
+    margin-top: 25px;
+}
+
+
+.collapsible2 {
+    padding: 0 18px;
+    display: block;
+    color:rgb(7, 7, 7);
+    overflow: hidden;
+    font-size: 1.2vw;
+    text-align:left;
+    margin-left: 44vw;
+    position:relative;
+    margin-top: -.1vw;
+    border: white;
+    background: white;
+  }
+  
+  .collapsible2:after {
+    content: '\025BA'; /* Unicode character for "plus" sign (+) */
+    margin-top: .1vw;
+    font-size: 1.1vw;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-left: 1vw;
+  }
+  
+  .active:after {
+    content: "\025BC"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .content2 {
+    
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+    font-size: 1.1vw;
+    margin-left: 46.5vw;
+    text-align: left;
+  }
+
+
+ 
+
+ 
